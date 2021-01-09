@@ -1,0 +1,15 @@
+﻿<Window x:Class="TypingTutor.Typing_Home"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TypingTutor"
+        mc:Ignorable="d"
+        Title="Typing_Home" Height="493.807" Width="800">
+    <Grid Background="#FFEFFFD7">
+        <TextBlock x:Name="textBlock" TextAlignment="Center" FontSize="30" HorizontalAlignment="Center" Margin="269,32,250,0" TextWrapping="Wrap" Text="Essay typing setup " VerticalAlignment="Top" Foreground="Red" Height="47" Width="273" FontWeight="SemiBold"/>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Background="#E7FFC5" Height="188" VerticalAlignment="Top" Width="464" Margin="62,129,0,0"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Foreground="Black" TextAlignment="Center" FontSize="15" Margin="62,104,0,0" TextWrapping="Wrap" Text="* Select an essay to type" VerticalAlignment="Top" Width="172" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
